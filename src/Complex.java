@@ -1,6 +1,6 @@
 public class Complex {
     public double real;
-    public double imag;
+    private double imag;
 
     public Complex(double a1){
         real=a1;
@@ -75,3 +75,16 @@ public class Complex {
 
 
 }
+/*     [output]
+5.385164807134504
+7.615773105863909
+8.0 + 9.0i
+1.0 + 41.0i
+7.0 + 2.0i
+10.0 + 4.0i
+5.0
+10.0 + 2.0i
+8.5 + 0.0i
+25.0 + 10.0i
+7.5 + 0.0i
+ */
